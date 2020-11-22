@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Angular-Guac-Common-Js"
+    }
+  },
+  "defaultProject": "Angular-Guac-Common-Js",
+  "cli": {
+    "analytics": "5176731d-2d2f-4f73-b700-6033da5dd4d6"
+  }
 }
