@@ -10,7 +10,7 @@ import encrypt from './encrypt.js';
 })
 export class AppComponent implements OnInit {
   title = 'Angular-Guac-Common-Js';
-  encPassword = "secure string for encryption needs to be high";
+  encPassword = "";
 
   ngOnInit() {
     debugger;
@@ -63,7 +63,7 @@ export class AppComponent implements OnInit {
     return {
       hostname: '192.168.1.32',
       username: 'Administrator',
-      password: 'Kottai2050$',
+      password: '',
       'enable-drive': true,
       'create-drive-path': true,
       security: 'any',
